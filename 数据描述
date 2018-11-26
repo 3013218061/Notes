@@ -1,0 +1,18 @@
+1.线性结构
+	线性表:
+		length,maxSize, T *elements
+	链表:
+		Node类：T data, Node* link
+		Node* first
+	双向链表:
+		Node类：T data, Node *left, *right
+		Node *leftEnd, *rightEnd
+	间接寻址表：
+		T **table,length,maxSize
+	模拟指针： Space<T>
+		Node类：T data, int link
+		Node<T> *nodes, int numberOfNotes, first1,first2
+	采用模拟指针的链表
+		static Space<T>, int first
+2.数组和矩阵
+	
